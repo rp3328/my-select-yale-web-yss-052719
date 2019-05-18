@@ -7,9 +7,8 @@ def my_select(collection)
  while num < clen
    if yield(collection[num]) == true
      arr < collection[num]
-   else
+   end
      num += 1
    end
    arr
- end
 end
